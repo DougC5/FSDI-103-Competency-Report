@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/App.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary ">
+
+        <div class="container">
+            <a class="navbar-brand order-1 my-2" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="Videos.html">Videos</a>
+                    <a class="nav-item nav-link" href="Survey.html">Take Survey</a>
+                    <a class="nav-item nav-link" href="mailto:test@gmail.com">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav> <!-- nav end -->
+
+    <div class="container">
+
+        <!-- Jumbotron -->
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron jumbotron-fluid mb-0 col-md-8 mx-auto">
+                    <div class="container border border-dark rounded shadow bg-white rounded">
+                        <h1 class="display-4 text-center">Random Video Source</h1>
+                        <p class="lead text-center">A repository for a few choice youtube videos</p>
+                    </div>
+                </div>
+
+            </div>
+        </div> <!-- Jumbotron End-->
+
+        <div class="row">
+            <h3 class="mx-auto mb-5">Enjoy this chicken bocking while you browse the content</h3>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 border border-secondary rounded-left">
+                <h3 class="text-center">Audio</h3>
+                <audio controls autoplay muted loop class="col-md-4" width=300px height=200px>
+                    <source src="MP3/Chicken%20Bock%20Bock%20(128%20%20kbps).mp3">
+
+                </audio>
+            </div>
+
+
+            <div class="col-md-8 border border-secondary rounded-right">
+                <h3 class="text-center">Mezmorizing Chicken GIF</h3>
+
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item " src="https://media.giphy.com/media/j82e0zrws1A64/giphy.gif" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+       
+        <!--        Footer Button-->
+        <div class="btn-group my-5 d-flex justify-content-center" role="group" aria-label="Footern Buttons">
+            <a href="Videos.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Show Me More Videos!</a>
+            <a href="Survey.html" class="btn btn-secondary btn-lg ml-2 active" role="button" aria-pressed="true">Take The Survey</a>
+        </div><!--  END  Footer Buttons-->
+    </div>
+</body>
+</html>
